@@ -12,3 +12,5 @@
 # Dependency directories
 node_modules/
 dist/
+# Python cache files
+*__pycache__/*
