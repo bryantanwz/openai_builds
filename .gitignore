@@ -1,0 +1,14 @@
+# Logs
+*.log
+*.tmp
+
+# Environments
+.env
+.env.*
+
+# Mac
+.DS_Store
+
+# Dependency directories
+node_modules/
+dist/
