@@ -7,6 +7,9 @@ from openai import OpenAI
 import json
 from functionDefinitions import TOOLS
 from queue import Queue
+from dotenv import load_dotenv
+
+load_dotenv()  # Load environment variables from .env file
 
 app = Flask(__name__)
 CORS(app)
